@@ -3,17 +3,20 @@
   "version": "0.0.1",
   "description": "The chat of your next React-Native Apps",
   "main": "GiftedMessenger.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FaridSafi/react-native-gifted-messenger.git"
+    "url": "git+https://github.com/wix/react-native-gifted-messenger.git"
   },
   "author": "Farid from Safi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FaridSafi/react-native-gifted-messenger/issues"
+    "url": "https://github.com/wix/react-native-gifted-messenger/issues"
   },
   "keywords": [
     "chat",
@@ -25,7 +28,7 @@
     "ios",
     "android"
   ],
-  "homepage": "https://github.com/FaridSafi/react-native-gifted-messenger#readme",
+  "homepage": "https://github.com/wix/react-native-gifted-messenger#readme",
   "dependencies": {
     "extend": "^3.0.0",
     "moment": "^2.10.6",
