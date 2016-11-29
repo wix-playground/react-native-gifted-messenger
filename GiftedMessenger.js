@@ -564,7 +564,7 @@ var GiftedMessenger = React.createClass({
             autoFocus={this.props.autoFocus}
             returnKeyType={this.props.submitOnReturn ? 'send' : 'default'}
             onSubmitEditing={this.props.submitOnReturn ? this.onSend : null}
-            
+            underlineColorAndroid="transparent"
             blurOnSubmit={false}
           />
           <Button
